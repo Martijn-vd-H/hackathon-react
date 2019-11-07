@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { ExampleClass }  from './example-class';
 import './App.css';
 
 const App: React.FC = () => {
@@ -18,7 +19,11 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <div style={{margin: "20px"}}>
+          Greeting: <ExampleClass greeting="Hello!" />
+        </div>
       </header>
+
     </div>
   );
 }
