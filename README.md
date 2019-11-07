@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Using Trello.ts
+To access the data in our bogus organization DreamTeam, copy the `config.template.ts` file and rename it to `config.ts`. Edit the file to add the supplied credentials.
+
 ## Available Scripts
 
 In the project directory, you can run:
